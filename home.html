@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      background-image: url('OIP.jpg'); /* ✅ Make sure your image exists in the project folder */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    .container h1 {
+      font-size: 2em;
+      font-family: Algerian;
+    }
+
+    .content {
+      background-color: rgba(0, 0, 255, 0.6);
+      width: 40%;
+      margin: 20px auto;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .content h4 {
+      margin: 10px 0;
+    }
+
+    .content a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .content a:hover {
+      color: yellow;
+    }
+
+    .section {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px auto;
+      width: 60%;
+      display: none; /* ✅ All sections hidden by default */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>WELCOME TO MY PORTFOLIO WEBSITE</h1>
+  </div>
+
+  <div class="content">
+    <h4><a href="#" onclick="toggleSection('about')">ABOUT ME</a></h4>
+    <h4><a href="#" onclick="toggleSection('qualification')">QUALIFICATION</a></h4>
+    <h4><a href="#" onclick="toggleSection('skills')">SKILLS</a></h4>
+    <h4><a href="#" onclick="toggleSection('projects')">PROJECTS</a></h4>
+  </div>
+
+  <!-- About Me Section -->
+  <div id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hello! I am <strong>SUMANTH M POOJARY </strong>, a passionate web developer and designer. I love creating beautiful and functional websites.</p>
+    <p>I have experience with HTML, CSS, JavaScript, and Python. I enjoy learning new technologies and building creative projects.</p>
+  </div>
+
+  <!-- Qualification Section -->
+  <div id="qualification" class="section">
+    <h2>Qualification</h2>
+    <ul>
+      <li>Bachelor of Computer Application</li>
+      <li>Master Of Computer Application</li>
+      <li>Web Development Certification</li>
+      <li>Python Programming Course</li>
+    </ul>
+  </div>
+
+  <!-- Skills Section -->
+  <div id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python and Flask</li>
+      <li>SQL and Database Management</li>
+      <li>UI/UX Design Basics</li>
+    </ul>
+  </div>
+
+  <!-- Projects Section -->
+  <div id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li>Personal Portfolio Website</li>
+      <li>Task Management Web App</li>
+      <li>Weather Forecast App (using API)</li>
+    </ul>
+  </div>
+
+  <script>
+    function toggleSection(sectionId) {
+      var section = document.getElementById(sectionId);
+      if (section.style.display === "none" || section.style.display === "") {
+        section.style.display = "block";
+      } else {
+        section.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
