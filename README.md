@@ -33,11 +33,4 @@ Welcome to my personal portfolio website! This project is built using **HTML**, 
 
 ## ✨ Author:
 
-**Sumanth Poojary**
-
----
-
-
-1. Create a file named `README.md` in your project folder.
-2. Copy-paste the content above.
-3. Push it using Git, or upload it via GitHub web interface.
+**Sumanth M Poojary**
