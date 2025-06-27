@@ -17,7 +17,8 @@ Welcome to my personal portfolio website! This project is built using **HTML**, 
 
 ## 📸 Screenshot:
 
-*(You can add a screenshot of your website later here)*
+![image](https://github.com/user-attachments/assets/6d382cf8-2e62-41c0-9330-57522fef8446)
+
 
 ## 🌍 Live Demo:
 
