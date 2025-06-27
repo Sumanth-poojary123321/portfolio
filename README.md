@@ -37,21 +37,6 @@ Welcome to my personal portfolio website! This project is built using **HTML**, 
 
 ---
 
-## ✅ How to Add This README.md to Your GitHub Repository:
-
-### Method 1: Directly on GitHub (Easiest)
-
-1. Go to your **repository page** (`portfolio` repo).
-2. Click **"Add file" → "Create new file"**.
-3. Name the file:  
-✅ `README.md`
-4. Paste the above content.
-5. Scroll down and click:  
-✅ **Commit new file**
-
----
-
-### Method 2: Upload from Your Computer:
 
 1. Create a file named `README.md` in your project folder.
 2. Copy-paste the content above.
