@@ -22,7 +22,7 @@ Welcome to my personal portfolio website! This project is built using **HTML**, 
 
 ## 🌍 Live Demo:
 
-[Click here to view my live portfolio](https://cute-starlight-e72f9d.netlify.app/) 
+[Click here to view my live portfolio](https://portfolio2x.netlify.app/)
 
 
 ## 📥 How to Use:
